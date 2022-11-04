@@ -1,5 +1,7 @@
 # Setup
 
+## Install Neovim 0.8 or later
+
 ## Install AstroNvim
 
 From [here](https://astronvim.github.io/)
@@ -25,8 +27,12 @@ git clone <repo_url> ~/.config/nvim/lua/user
 ## Install linters, LSP etc
 
 ### Custom setup or multiple installs
-`SPACE p I` or `:LspInstall <language/filetype>` (`:LspInstall python`)
+`SPACE p I` or `:LspInstall <server name>` (`:LspInstall pyright`)
 
 ### Install LSP for the currently opened file type
 
 `:LspInstall`
+
+### Install language parser 
+
+`TSInstall <language name>` (`:TSInstall python`)
