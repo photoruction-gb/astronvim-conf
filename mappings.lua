@@ -2,6 +2,7 @@ return {
   n = {
     ["<leader>d"] = false,
     ["<leader>bb"] = { "<cmd>tabnew<cr>", desc = "New tab" },
+    ["<leader>bd"] = { "<cmd>bd<cr>", desc = "Close buffer" },
     ["<leader>H"] = { "<cmd>Alpha<cr>", desc = "Alpha Dashboard" },
     -- Debugger
     ["<F5>"] = { "<cmd>lua require'dap'.continue()<cr>", desc = "Debugger: Start" },
