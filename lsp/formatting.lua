@@ -1,5 +1,6 @@
 return {
   disabled = {
     "intelephense",
+    "tsserver",
   },
 }
